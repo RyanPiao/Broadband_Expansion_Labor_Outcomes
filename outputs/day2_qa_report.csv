@@ -1,0 +1,15 @@
+check,metric,threshold,pass,notes
+year_range_locked_2017_2023,1.0,1.0,1,Panel year set must match lock exactly.
+unique_county_year_key,0.0,0.0,1,No duplicate county_id-year rows allowed.
+county_coverage_per_year,3142.0,3100.0,1,Expected contiguous county coverage in ACS 5y extract.
+non_missing_remote_work_share,0.999955,0.95,1,Core variable non-missing share threshold.
+non_missing_broadband_sub_share,1.0,0.95,1,Core variable non-missing share threshold.
+non_missing_digital_emp_share,0.999955,0.95,1,Core variable non-missing share threshold.
+non_missing_log_median_hh_income,0.999727,0.95,1,Core variable non-missing share threshold.
+non_missing_unemployment_rate,0.999955,0.95,1,Core variable non-missing share threshold.
+non_missing_population,1.0,0.95,1,Core variable non-missing share threshold.
+bounded_remote_work_share,1.0,1.0,1,"All non-missing share values must be in [0,1]."
+bounded_broadband_sub_share,1.0,1.0,1,"All non-missing share values must be in [0,1]."
+bounded_digital_emp_share,1.0,1.0,1,"All non-missing share values must be in [0,1]."
+bounded_unemployment_rate,1.0,1.0,1,"All non-missing share values must be in [0,1]."
+full_panel_share,0.993657,0.9,1,Share of counties with complete year coverage.
