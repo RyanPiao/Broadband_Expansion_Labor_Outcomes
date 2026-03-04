@@ -1,6 +1,6 @@
 # Executive Summary — Broadband Expansion and Local Labor-Market Adjustment in the Remote-Work Era
 
-## 1) Title + 3-line abstract
+## Abstract
 This report evaluates how county-level broadband expansion relates to remote work, digital employment, and income in the U.S. (2017–2023).
 Using public ACS county-year data and a fixed-effects/event-study design, this study builds a transparent workflow for ingestion, modeling, robustness checks, and reproducibility packaging.
 Results are informative but mixed: income associations are positive and precise, while remote-work estimates are negative with pre-trend warnings, so causal claims remain constrained.
