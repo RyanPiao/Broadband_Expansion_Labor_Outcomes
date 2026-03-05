@@ -1,7 +1,7 @@
 # Tech-Econ Weekly Lab Run (Week X)
 ## Broadband Expansion × Labor Outcomes
 
-This repository now contains the **full Day2-Day7 continuation** for the approved Day-1 framing.
+This repository now contains the **full Step 2-Step 7 continuation** for the approved Step-1 framing.
 
 ## Start here (primary single-page overview)
 - **Executive summary:** [`docs/weekX_executive_summary.md`](docs/weekX_executive_summary.md)
@@ -12,19 +12,19 @@ This repository now contains the **full Day2-Day7 continuation** for the approve
 ### Executive summary
 - `docs/weekX_executive_summary.md`
 
-- ✅ **Day 2**: ingestion/spec lock/QA + analysis-ready county-year panel
-- ✅ **Day 3**: EDA notebook + exploratory outputs
-- ✅ **Day 4**: baseline FE model + event-study diagnostics
-- ✅ **Day 5**: robustness/sensitivity package + limitations register
-- ✅ **Day 6**: reproducibility polish (manifest, requirements snapshot, runbook)
-- ✅ **Day 7**: weekly recap report suitable for website research summary
+- ✅ **Step 2**: ingestion/spec lock/QA + analysis-ready county-year panel
+- ✅ **Step 3**: EDA notebook + exploratory outputs
+- ✅ **Step 4**: baseline FE model + event-study diagnostics
+- ✅ **Step 5**: robustness/sensitivity package + limitations register
+- ✅ **Step 6**: reproducibility polish (manifest, requirements snapshot, runbook)
+- ✅ **Step 7**: weekly recap report suitable for website research summary
 
 ---
 
-## Day-1 must-fix closure (applied before modeling)
-- `docs/day2_preanalysis_lock.md`
-- `docs/day2_data_extraction_spec.md`
-- `docs/day2_data_qa_checklist.md`
+## Step-1 must-fix closure (applied before modeling)
+- `docs/step2_preanalysis_lock.md`
+- `docs/step2_data_extraction_spec.md`
+- `docs/step2_data_qa_checklist.md`
 
 ---
 
@@ -45,29 +45,29 @@ This repository now contains the **full Day2-Day7 continuation** for the approve
 .
 ├── README.md
 ├── PLAN.md
-├── DAY1_problem_framing.md
-├── DAY1_review.md
+├── STEP1_problem_framing.md
+├── STEP1_review.md
 ├── requirements.txt
 ├── data_raw/
 ├── data_intermediate/
 ├── data_analysis/
 ├── docs/
-│   ├── day2_*.md
-│   ├── day3_eda_note.md
-│   ├── day4_interpretation_notes.md
-│   ├── day5_robustness_limitations.md
-│   ├── day6_reproducibility_runbook.md
-│   ├── day6_reproducibility_checklist.md
-│   └── day7_weekly_recap.md
+│   ├── step2_*.md
+│   ├── step3_eda_note.md
+│   ├── step4_interpretation_notes.md
+│   ├── step5_robustness_limitations.md
+│   ├── step6_reproducibility_runbook.md
+│   ├── step6_reproducibility_checklist.md
+│   └── step7_weekly_recap.md
 ├── notebooks/
 ├── outputs/
 └── scripts/
-    ├── day2_ingest_build_panel.py
-    ├── day3_eda.py
-    ├── day4_baseline_model.py
-    ├── day5_robustness_sensitivity.py
-    ├── day6_reproducibility_polish.py
-    ├── day7_weekly_recap.py
+    ├── step2_ingest_build_panel.py
+    ├── step3_eda.py
+    ├── step4_baseline_model.py
+    ├── step5_robustness_sensitivity.py
+    ├── step6_reproducibility_polish.py
+    ├── step7_weekly_recap.py
     ├── run_day2_day4.py
     └── run_day2_day7.py
 ```
@@ -85,28 +85,28 @@ python scripts/run_day2_day7.py
 ```
 
 ### Reproducibility package outputs
-- `outputs/day6_artifact_manifest.csv`
-- `outputs/day6_requirements_snapshot.csv`
-- `outputs/day6_run_metadata.json`
-- `docs/day6_reproducibility_runbook.md`
+- `outputs/step6_artifact_manifest.csv`
+- `outputs/step6_requirements_snapshot.csv`
+- `outputs/step6_run_metadata.json`
+- `docs/step6_reproducibility_runbook.md`
 
 ---
 
-## Day5-Day7 core artifacts
+## Step 5-Step 7 core artifacts
 
-### Day 5 (robustness/sensitivity + limitations)
-- `outputs/day5_robustness_sensitivity.csv`
-- `outputs/day5_limitations_register.csv`
-- `docs/day5_robustness_limitations.md`
+### Step 5 (robustness/sensitivity + limitations)
+- `outputs/step5_robustness_sensitivity.csv`
+- `outputs/step5_limitations_register.csv`
+- `docs/step5_robustness_limitations.md`
 
-### Day 6 (reproducibility polish)
-- `outputs/day6_artifact_manifest.csv`
-- `outputs/day6_requirements_snapshot.csv`
-- `outputs/day6_run_metadata.json`
-- `docs/day6_reproducibility_runbook.md`
-- `docs/day6_reproducibility_checklist.md`
+### Step 6 (reproducibility polish)
+- `outputs/step6_artifact_manifest.csv`
+- `outputs/step6_requirements_snapshot.csv`
+- `outputs/step6_run_metadata.json`
+- `docs/step6_reproducibility_runbook.md`
+- `docs/step6_reproducibility_checklist.md`
 
-### Day 7 (weekly recap)
-- `docs/day7_weekly_recap.md`
-- `outputs/day7_website_summary.txt`
-- `outputs/day7_recap_metadata.json`
+### Step 7 (weekly recap)
+- `docs/step7_weekly_recap.md`
+- `outputs/step7_website_summary.txt`
+- `outputs/step7_recap_metadata.json`
