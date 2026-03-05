@@ -1,0 +1,6 @@
+diagnostic,value,rule,pass
+pretrend_gate_p_gt_0.10_for_k_-3_-2,0.0,both pre-period p-values > 0.10,0
+treatment_support_ever_treated_share,0.9705042816365367,>=0.20,1
+treatment_support_n_treated_cohorts,7.0,>=3,1
+combined_support_gate,1.0,share and cohorts thresholds both pass,1
+primary_sign_gate_remote_work,0.0,remote-work coefficient > 0,0

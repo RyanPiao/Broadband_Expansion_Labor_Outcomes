@@ -1,4 +1,4 @@
-# Day 2 (Tuesday) — Data Extraction Spec
+# Step 2 (Tuesday) — Data Extraction Spec
 
 ## Sources (public)
 All pulled from FRED CSV endpoints (no API key required):

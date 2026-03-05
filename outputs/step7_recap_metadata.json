@@ -1,0 +1,9 @@
+{
+  "generated_at_utc": "2026-03-04T02:10:39.485124+00:00",
+  "remote_effect_10pp": -0.0109252539372248,
+  "remote_p_value": 1.046333268605771e-07,
+  "income_effect_10pp": 0.041671426898904,
+  "income_p_value": 9.048241526379921e-24,
+  "robustness_specs": 8,
+  "same_sign_share": 0.875
+}

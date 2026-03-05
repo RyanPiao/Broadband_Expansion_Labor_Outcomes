@@ -1,4 +1,4 @@
-# Day 5 — Robustness/Sensitivity + Limitations
+# Step 5 — Robustness/Sensitivity + Limitations
 
 ## Robustness and sensitivity summary
 - Specifications run: **8**
@@ -19,13 +19,13 @@
 | add_series_break_control | -0.1127 | 2.653e-08 | -0.0113 | 21999 |
 | first_difference | 0.1364 | 1.366e-27 | 0.0136 | 18845 |
 
-## Limitations register (Week-1)
+## Limitations register (Stage-1)
 - **Pre-trend warning in event-study leads** (high): Lead p-values: 0.008, 0.780
 - **Primary coefficient sign is negative for remote-work outcome** (high): Baseline coef=-0.1095, p=5.559e-08
 - **ACS subscription proxy may not equal infrastructure availability** (high): Treatment uses household subscription share (B28002) rather than provider availability coverage.
 - **County-level aggregates and ACS 5-year smoothing** (medium): Panel is county-year with rolling ACS 5-year estimates.
 
-## Week-2 implications
+## Stage-2 implications
 1. Prioritize treatment-measure upgrade (FCC availability harmonization).
 2. Re-run with modern staggered-adoption estimators and stronger comparability restrictions.
-3. Treat this week's remote-work estimates as directional diagnostics, not final causal claims.
+3. Treat this stage's remote-work estimates as directional diagnostics, not final causal claims.

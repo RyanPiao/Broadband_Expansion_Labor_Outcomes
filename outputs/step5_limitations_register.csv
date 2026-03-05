@@ -1,0 +1,5 @@
+limitation,severity,evidence,implication,week2_action
+Pre-trend warning in event-study leads,high,"Lead p-values: 0.008, 0.780",Potential violation of parallel trends; causal interpretation is weakened.,Re-estimate with alternative estimators and narrower comparability windows.
+Primary coefficient sign is negative for remote-work outcome,high,"Baseline coef=-0.1095, p=5.559e-08",Direction conflicts with the initial hypothesis; may reflect treatment proxy issues or confounding.,Replace treatment proxy with FCC availability series and re-run design diagnostics.
+ACS subscription proxy may not equal infrastructure availability,high,Treatment uses household subscription share (B28002) rather than provider availability coverage.,Adoption behavior and affordability may contaminate infrastructure effect estimates.,Integrate harmonized FCC Form-477/BDC county availability measures.
+County-level aggregates and ACS 5-year smoothing,medium,Panel is county-year with rolling ACS 5-year estimates.,Short-run changes and household-level mechanisms are not separately identified.,Add alternative outcomes and sensitivity to excluding boundary years.

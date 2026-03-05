@@ -1,4 +1,4 @@
-# Day 4 Interpretation Notes
+# Step 4 Interpretation Notes
 
 ## Baseline model package
 - Estimator: county/year TWFE (within transformation) with state-clustered SE.
@@ -23,7 +23,7 @@
 - ✅ Treated cohorts gate: **pass** (7 cohorts)
 - ❌ Primary sign gate (remote-work effect >0): **fail**
 
-## Interpretation for Week-X decisioning
+## Interpretation for Stage-X decisioning
 1. This baseline package does **not** support a clean positive remote-work response under the current proxy-treatment design.
 2. Income association is positive, but interpretation remains observational and sensitive to specification.
 3. Given pre-trend failure and sign mismatch versus prior expectation, this should be treated as **diagnostic evidence**, not a final causal claim.

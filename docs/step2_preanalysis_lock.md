@@ -1,17 +1,17 @@
-# Day 2 Pre-Analysis Lock (Must-Fix Closure from `DAY1_review.md`)
+# Step 2 Pre-Analysis Lock (Must-Fix Closure from `DAY1_review.md`)
 
-This document is the formal Day-2 lock before modeling. It resolves all 8 must-fix items.
+This document is the formal Step-2 lock before modeling. It resolves all 8 must-fix items.
 
 ## 1) Locked panel sample specification
 - **Unit:** county-year panel.
 - **Years:** **2017-2023** (inclusive).
 - **Geography:** 50 U.S. states + DC (state FIPS `<=56`), counties only.
 - **Exclusions:** U.S. territories removed; invalid denominator rows (division by zero) become missing and are handled via analysis-specific complete-case filtering.
-- **Boundary treatment:** fixed county FIPS key (`state_fips + county_fips`) as panel ID; no boundary re-aggregation in Week X.
+- **Boundary treatment:** fixed county FIPS key (`state_fips + county_fips`) as panel ID; no boundary re-aggregation in Stage X.
 
 ## 2) Locked treatment construction + harmonization rule
 - **Intended policy treatment (target spec):** county share with fixed broadband availability >=100/20 Mbps.
-- **Blocked component (this run):** harmonized Form 477 + BDC county availability series cannot be completed in Week-X window due heavy geospatial/crosswalk integration.
+- **Blocked component (this run):** harmonized Form 477 + BDC county availability series cannot be completed in Stage-X window due heavy geospatial/crosswalk integration.
 - **Real-data fallback used (locked):** ACS household broadband subscription share:  
   `broadband_sub_share = B28002_004E / B28002_001E`.
 - **Series-break rule (pre-registered for FCC integration):** include indicator `fcc_series_break_post_2022 = 1{year>=2022}` once FCC availability series is merged.
@@ -40,23 +40,23 @@ This document is the formal Day-2 lock before modeling. It resolves all 8 must-f
 - **Primary sign gate:** remote-work baseline coefficient expected positive.
 
 ## 6) Baseline controls + policy overlays (enumerated)
-- **Controls in baseline model (Day 4 active):**
+- **Controls in baseline model (Step 4 active):**
   - unemployment rate (`B23025_005E/B23025_003E`)
   - log population (`log(B01003_001E)`)
-- **Policy overlays (pre-specified for Week+ continuation):**
+- **Policy overlays (pre-specified for Stage+ continuation):**
   - state broadband grant activity indicator
   - state labor-market shock indicator
   - state-year macro pressure proxy
-  These are listed now for lock compliance; not yet integrated in this Day2-Day4 execution.
+  These are listed now for lock compliance; not yet integrated in this Step2-Step4 execution.
 
 ## 7) Spillover sensitivity plan (pre-specified)
 At minimum one spillover check is required in continuation analyses:
 1. Adjacent-county exposure control, or
 2. Leave-neighbor-out exclusion band.
 
-For this Day4 baseline package, diagnostics remain within primary model scope; spillover checks are earmarked for next robustness cycle.
+For this Step4 baseline package, diagnostics remain within primary model scope; spillover checks are earmarked for next robustness cycle.
 
-## 8) Day 2 QA checklist + fail-stop conditions
+## 8) Step 2 QA checklist + fail-stop conditions
 Implemented in `scripts/day2_ingest_build_panel.py` and written to `outputs/day2_qa_report.csv`.
 Required checks:
 1. Year set exactly 2017-2023

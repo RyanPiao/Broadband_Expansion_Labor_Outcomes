@@ -1,6 +1,6 @@
 # Run: 2026-03-04 Semiconductor Cycle (Mon–Wed)
 
-This run completes Monday/Tuesday/Wednesday portions of the 7-day research cadence.
+This run completes Monday/Tuesday/Wednesday portions of the 7-step research cadence.
 
 ## Completed
 - **Step 1 (Mon):** `docs/STEP1_problem_framing.md`

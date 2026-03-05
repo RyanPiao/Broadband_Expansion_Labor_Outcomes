@@ -1,4 +1,4 @@
-# Day 3 (Wednesday) — EDA Note
+# Step 3 (Wednesday) — EDA Note
 
 This note summarizes outputs from `scripts/day3_eda.py`.
 
@@ -8,10 +8,10 @@ This note summarizes outputs from `scripts/day3_eda.py`.
 - `outputs/day3_growth_overlay.png`
 - `outputs/day3_eda_summary.json`
 
-## Day 3 readout (executed)
+## Step 3 readout (executed)
 - Contemporaneous correlation (`chip_yoy`, `software_emp_yoy`): **0.3534**.
 - Strongest lag association (0..6 months): **lag 3**, |corr| = **0.3860**.
-- Sign is positive and directionally consistent with Day 1 hypothesis.
+- Sign is positive and directionally consistent with Step 1 hypothesis.
 
 ## Next suggestion
-Move to Day 4 with baseline regression + lag specification using Newey-West or HAC errors for serial correlation robustness.
+Move to Step 4 with baseline regression + lag specification using Newey-West or HAC errors for serial correlation robustness.

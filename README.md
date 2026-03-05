@@ -1,4 +1,4 @@
-# Tech-Econ Weekly Lab Run (Week X)
+# Tech-Econ Weekly Lab Run (Stage X)
 ## Broadband Expansion × Labor Outcomes
 
 This repository now contains the **full Step 2-Step 7 continuation** for the approved Step-1 framing.
@@ -33,7 +33,7 @@ This repository now contains the **full Step 2-Step 7 continuation** for the app
 - U.S. Census ACS 5-year API (county-year, 2017-2023)
 
 ### Blocked component and fallback
-- **Blocked in Week-X:** harmonized historical FCC Form-477/BDC county availability panel.
+- **Blocked in Stage-X:** harmonized historical FCC Form-477/BDC county availability panel.
 - **Fallback used:** ACS household broadband subscription share (`B28002_004E / B28002_001E`) as treatment proxy.
 - **Synthetic data:** not used.
 

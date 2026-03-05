@@ -1,4 +1,4 @@
-# Day 1 (Monday) — Problem Framing
+# Step 1 (Monday) — Problem Framing
 
 ## Project
 **Title:** Semiconductor Production Cycles and U.S. Tech Employment Adjustment
@@ -22,6 +22,6 @@ Chip cycles are often treated as "hardware-only" shocks, but modern software del
 - Software publishing employment (FRED: `USINFO`)
 - Total nonfarm payroll (control, FRED: `PAYEMS`)
 
-## Day 1 output
+## Step 1 output
 - Question and estimand locked
-- Data map and practical extraction plan ready for Day 2
+- Data map and practical extraction plan ready for Step 2

@@ -1,9 +1,9 @@
 # DAY1_problem_framing.md
 
-## Day 1 Problem Framing (Week-1 Build, Fresh Start)
+## Step 1 Problem Framing (Stage-1 Build, Fresh Start)
 
 ### 1) Framing summary
-I am initiating a new empirical tech-economics workflow on the labor-market consequences of broadband infrastructure expansion. Day 1 is dedicated to locking the research design before estimation.
+I am initiating a new empirical tech-economics workflow on the labor-market consequences of broadband infrastructure expansion. Step 1 is dedicated to locking the research design before estimation.
 
 **Selected topic (senior-level empirical/quant):**  
 **Broadband expansion and local labor-market adjustment in the remote-work era.**
@@ -17,7 +17,7 @@ This question is policy-relevant because broadband subsidies and infrastructure 
 
 ---
 
-### 3) Estimands (locked on Day 1)
+### 3) Estimands (locked on Step 1)
 Let treatment be county-year broadband coverage rate (>=100/20 Mbps availability).
 
 1. **Primary estimand:**
@@ -40,7 +40,7 @@ Planned public sources:
 - BLS QCEW/OEWS/LAUS labor outcomes,
 - BEA regional controls.
 
-**Feasibility judgment:** Public real data are sufficient to execute Day 1-Week 1 scope; synthetic fallback is not required at this stage.
+**Feasibility judgment:** Public real data are sufficient to execute Step 1-Stage 1 scope; synthetic fallback is not required at this stage.
 
 ---
 
@@ -72,16 +72,16 @@ Mitigation plan: explicit pre-trend diagnostics, alternative treatment definitio
 
 ---
 
-### 7) Reproducibility plan (Day 1 commitments)
+### 7) Reproducibility plan (Step 1 commitments)
 - Build a script-only pipeline (download, clean, merge, estimate, output).
 - Version all assumptions and inclusion/exclusion rules in markdown.
 - Save source metadata (URL, access date, schema notes).
 - Keep generated outputs separate from raw pulls.
-- Ensure baseline tables can be regenerated from a single run command after Day 2 extraction.
+- Ensure baseline tables can be regenerated from a single run command after Step 2 extraction.
 
 ---
 
-### 8) What is complete at end of Day 1
+### 8) What is complete at end of Step 1
 - Research question and estimands are explicitly defined.
 - Public-real data path is selected and justified.
 - Identification menu is prioritized with credibility checks.

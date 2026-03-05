@@ -2,18 +2,18 @@
 
 ## Project
 **Topic:** Broadband Infrastructure Expansion and Local Labor-Market Adjustment in the Remote-Work Era  
-**Week:** Week 1 (Day 1 framing → Day 5 first empirical readout)  
+**Stage:** Stage 1 (Step 1 framing → Step 5 first empirical readout)  
 **Data Priority:** **Public Real Data** (required and selected)
 
 ---
 
-## 1) Week Objective
+## 1) Stage Objective
 Produce a credible first-pass causal estimate of how increases in high-speed broadband availability affect:
 1. Remote-work participation,
 2. Employment in digital-intensive sectors,
 3. Wage outcomes at the county level.
 
-By end of Week 1, the project should deliver a transparent identification strategy, an analysis-ready panel, baseline estimates, and a limitations memo suitable for senior technical-economics review.
+By end of Stage 1, the project should deliver a transparent identification strategy, an analysis-ready panel, baseline estimates, and a limitations memo suitable for senior technical-economics review.
 
 ---
 
@@ -51,7 +51,7 @@ Interpretation target: medium-run (1-3 year) response, not immediate same-quarte
 County-year panel (with optional county-industry-year extension for sector heterogeneity).
 
 ### Public-data feasibility note
-This topic is feasible with fully public datasets; **no synthetic fallback is currently required** for Day 1 framing.
+This topic is feasible with fully public datasets; **no synthetic fallback is currently required** for Step 1 framing.
 
 ---
 
@@ -94,27 +94,27 @@ Potential instrument class: engineering-cost shifters (terrain ruggedness / lega
 
 ---
 
-## 7) Week 1 Execution Schedule
+## 7) Stage 1 Execution Schedule
 
-### Day 1 (current)
+### Step 1 (current)
 - Lock problem framing, estimands, identification options, and risk register.
 - Finalize public-data-first source map and reproducibility commitments.
 
-### Day 2
+### Step 2
 - Build raw data ingestion scripts and codebook.
 - Construct preliminary county-year panel and QA checks.
 
-### Day 3
+### Step 3
 - Baseline descriptive diagnostics + first FE estimates.
 - Produce event-study prototype and sample composition tables.
 
-### Day 4
+### Step 4
 - Robustness pass: alternative treatment definitions, pre-trend windows, spillover checks.
 - Heterogeneity cuts (rural/urban, low/high baseline coverage).
 
-### Day 5
+### Step 5
 - Draft findings memo with credibility grading.
-- Document unresolved identification threats and Week 2 plan.
+- Document unresolved identification threats and Stage 2 plan.
 
 ---
 
@@ -123,11 +123,11 @@ Potential instrument class: engineering-cost shifters (terrain ruggedness / lega
 - Maintain clear folders: `data_raw/`, `data_intermediate/`, `data_analysis/`, `outputs/`, `scripts/`, `docs/`.
 - Record exact source URLs, pull dates, and file hashes where possible.
 - Pin package versions in `requirements.txt` / environment file.
-- Add one-command rerun entry point after Day 2 extraction is stable.
+- Add one-command rerun entry point after Step 2 extraction is stable.
 
 ---
 
-## 9) Day 1 Deliverable Checklist
+## 9) Step 1 Deliverable Checklist
 - [x] Senior-level empirical topic selected.
 - [x] Public real data path prioritized and feasible.
 - [x] Research question and estimands explicitly defined.

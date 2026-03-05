@@ -1,12 +1,12 @@
-# Day 6 — Reproducibility Runbook
+# Step 6 — Reproducibility Runbook
 
 ## Purpose
-This runbook defines a repeatable Day2-Day7 execution path for the Week-X broadband-labor repository.
+This runbook defines a repeatable Step2-Step7 execution path for the Stage-X broadband-labor repository.
 
 ## Environment
 - Python 3.9+ (tested in project `.venv`)
 - Dependencies pinned in `requirements.txt`
-- Network access required for ACS API pulls in Day 2
+- Network access required for ACS API pulls in Step 2
 
 ## Quick start (full rerun)
 ```bash
@@ -34,8 +34,8 @@ python scripts/day7_weekly_recap.py
 
 ## Troubleshooting
 1. **ACS API timeout/rate limits**
-   - Re-run Day 2; source pulls are idempotent.
+   - Re-run Step 2; source pulls are idempotent.
 2. **Package mismatch errors**
    - Recreate `.venv` and reinstall from `requirements.txt`.
-3. **Missing Day5/Day6 files**
-   - Run scripts in order; Day 7 depends on Day 5 and Day 6 outputs.
+3. **Missing Step5/Step6 files**
+   - Run scripts in order; Step 7 depends on Step 5 and Step 6 outputs.

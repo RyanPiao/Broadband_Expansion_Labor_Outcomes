@@ -1,0 +1,13 @@
+{
+  "n_rows": 649,
+  "date_min": "1972-01-01",
+  "date_max": "2026-01-01",
+  "missing": {
+    "IPG3344S": 0,
+    "USINFO": 0,
+    "PAYEMS": 0,
+    "chip_yoy": 12,
+    "software_emp_yoy": 12,
+    "payems_yoy": 12
+  }
+}

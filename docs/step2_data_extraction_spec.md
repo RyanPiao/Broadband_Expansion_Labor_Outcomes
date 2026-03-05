@@ -1,4 +1,4 @@
-# Day 2 Data Extraction Spec
+# Step 2 Data Extraction Spec
 
 ## Objective
 Construct a reproducible county-year panel for 2017-2023 using **public real** Census ACS data.
@@ -31,7 +31,7 @@ Construct a reproducible county-year panel for 2017-2023 using **public real** C
 - Drop impossible shares (outside [0,1]) by setting to missing.
 - Keep all rows through ingestion; model scripts apply complete-case filtering by specification.
 
-## Output files (Day 2)
+## Output files (Step 2)
 - `data_raw/day2_acs_raw_2017_2023.csv`
 - `data_intermediate/day2_county_year_panel.csv`
 - `data_analysis/county_year_panel.csv`
@@ -44,4 +44,4 @@ Construct a reproducible county-year panel for 2017-2023 using **public real** C
 ## Blocker and fallback statement
 - **Blocked component:** historical FCC availability harmonization (Form 477 + BDC).
 - **Fallback used:** ACS subscription share as treatment proxy.
-- **Synthetic use:** none in Day2-Day4 pipeline.
+- **Synthetic use:** none in Step2-Step4 pipeline.

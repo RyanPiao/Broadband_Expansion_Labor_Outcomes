@@ -1,4 +1,4 @@
-# Day 6 — Reproducibility Checklist
+# Step 6 — Reproducibility Checklist
 
 - [x] `requirements.txt` is version-pinned.
 - [x] End-to-end runner exists (`scripts/run_day2_day7.py`).

@@ -1,8 +1,0 @@
-year,url,access_utc,rows
-2017,https://api.census.gov/data/2017/acs/acs5,2026-03-04T02:10:26.618838+00:00,3142
-2018,https://api.census.gov/data/2018/acs/acs5,2026-03-04T02:10:28.025302+00:00,3142
-2019,https://api.census.gov/data/2019/acs/acs5,2026-03-04T02:10:29.149334+00:00,3142
-2020,https://api.census.gov/data/2020/acs/acs5,2026-03-04T02:10:30.499080+00:00,3143
-2021,https://api.census.gov/data/2021/acs/acs5,2026-03-04T02:10:31.506317+00:00,3143
-2022,https://api.census.gov/data/2022/acs/acs5,2026-03-04T02:10:32.683427+00:00,3144
-2023,https://api.census.gov/data/2023/acs/acs5,2026-03-04T02:10:33.675770+00:00,3144
